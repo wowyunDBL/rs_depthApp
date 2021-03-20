@@ -15,4 +15,10 @@ rosbag record /camera/color/image_raw /camera/depth/image_rect_raw /camera/depth
 rosrun depthApp_node test_cbImg.py True  
 
 ## save compressed  
+```
 <node pkg="image_transport" type="republish" name="republish" args="compressed in:=/raspicam_node/image raw out:=/raspicam_node/image"/>
+```
+
+## 0319
+ping 192.168.0.1xx
+rosbag record /camera/color/image_raw /camera/depth/image_rect_raw /camera/depth/color/points /camera/aligned_depth_to_color/image_raw /tf_static /tf /imu/data /husky_velocity_controller/odom
