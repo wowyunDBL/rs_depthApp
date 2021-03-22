@@ -9,6 +9,13 @@
 [ INFO] [1616143122.264484801]: Resetting device...
 ```
 
+```
+[ WARN] [1616395557.449316472]: No stream match for pointcloud chosen texture Process - Color
+ERROR [546584908160] (uvc-streamer.cpp:106) uvc streamer watchdog triggered on endpoint: 130
+\# TF tree issue
+Message removed because it is too old (frame=[camera_depth_optical_frame], stamp=[1616232300.882767916])
+```
+
 2. file log:
 ```
 ├── camera-realsense2_camera-2-stdout.log  \\process died log  
