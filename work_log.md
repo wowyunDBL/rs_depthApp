@@ -35,4 +35,23 @@ Message removed because it is too old (frame=[camera_depth_optical_frame], stamp
 [ WARN] [1616234838.896853954]: OGRE EXCEPTION(2:InvalidParametersException): Stream size does not match calculated image size in Image::loadRawData at /build/ogre-1.9-mqY1wq/ogre-1.9-1.9.0+dfsg1/OgreMain/src/OgreImage.cpp (line 283)
 [ERROR] [1616234838.896968606]: Error loading image: OGRE EXCEPTION(2:InvalidParametersException): Stream size does not match calculated image size in Image::loadRawData at /build/ogre-1.9-mqY1wq/ogre-1.9-1.9.0+dfsg1/OgreMain/src/OgreImage.cpp (line 283)
 ```
+<<<<<<< HEAD
+
+=======
+## 0327
+[Using Camera Tracking]
+https://www.stereolabs.com/docs/tutorials/positional-tracking/
+```
+/depthapp/scripts
+.
+├── cbDepth.py \\callback depth and record depth in .csv  
+└── check_depth.py \\depth post-processing  
+
+/depthapp/jupyterNotebook
+.
+├── test_image_data.ipynb \\
+└── tree_subtr_npy.ipynb \\calculate HOG and standard data pointer
+
+```
+>>>>>>> f185709e962456e3bf196e29ac0ed2f5bddf816a
 
